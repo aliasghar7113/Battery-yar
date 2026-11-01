@@ -34,8 +34,7 @@ jobs:
       - name: Extract project
         run: unzip -o BatteryYarAndroid_PhoneBuild.zip
 
-      -
-        - name: Fix Java Kotlin compatibility
+      - name: Fix Java Kotlin compatibility
         run: |
           python3 - <<'PY'
           from pathlib import Path
